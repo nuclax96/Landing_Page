@@ -31,10 +31,11 @@ header {
   /* margin-right: 220px; */
   font-size: 18px;
   color: #e5e7eb;
+  font-weight: 300;
 }
 
 .header-account a {
-  margin-left: 30px;
+  margin-left: 15px;
 }
 
 .hero {
@@ -44,11 +45,13 @@ header {
   justify-content: space-between;
 }
 .hero-main {
+  width: 45%;
+  height: auto;
   display: flex;
   flex-direction: column;
 }
 .hero-img-cont {
-  width: 30%;
+  width: 45%;
   height: auto;
 }
 .hero-img {
@@ -70,4 +73,18 @@ header {
 .hero-desc {
   width: 450px;
   margin-right: 100px;
+}
+.hero-text {
+  color: #e5e7eb;
+  font-weight: 300;
+  margin: 15px 0;
+}
+
+.btn-sign-up {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
 }
