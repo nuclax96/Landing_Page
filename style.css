@@ -88,3 +88,42 @@ header {
   border-radius: 10px;
   font-weight: bold;
 }
+
+.main-info-card {
+  display: flex;
+  justify-content: center;
+}
+
+.info-card-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.card-info {
+  width: 150px;
+  /* text-align: ; */
+}
+.card {
+  width: 150px;
+  height: 150px;
+  border: 3px solid #3882f6;
+  border-radius: 12px;
+}
+
+.card-text {
+  text-align: center;
+  font-size: 14px;
+  color: #6d7a8de8;
+  margin-top: 10px;
+}
+
+.secondary-heading {
+  display: flex;
+  justify-content: center;
+  font-size: 26px;
+  font-weight: bolder;
+  color: #1f2937;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
